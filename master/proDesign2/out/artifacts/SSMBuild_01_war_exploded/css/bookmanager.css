@@ -1,0 +1,52 @@
+#box{
+    width: 650px;
+    margin: 30px auto;
+    font-family: 'Microsoft YaHei';
+    font-size: 14px;
+}
+
+.put1{
+    width: 260px;
+    border: 1px solid #e2e2e2;
+    height: 30px;
+    float: left;
+    background-image: url(images/search.jpg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position:5px center;
+    padding:0 0 0 40px;
+}
+.put2{
+    width: 78px;
+    height: 32px;
+    float: left;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+select{
+    height: 30px;
+    float: left;
+}
+#add{
+    width: 78px;
+    height: 32px;
+    float: right;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}
+#search{
+    width: 78px;
+    height: 32px;
+    float: left;
+    background: deepskyblue;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+}

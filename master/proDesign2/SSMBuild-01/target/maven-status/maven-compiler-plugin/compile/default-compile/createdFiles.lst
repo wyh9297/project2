@@ -1,0 +1,11 @@
+com\shady\service\BookService.class
+com\shady\dao\BookMapper.class
+com\shady\service\BookServiceImpl.class
+com\shady\controller\UserController.class
+com\shady\controller\BookController.class
+com\shady\pojo\User.class
+com\shady\service\UserService.class
+com\shady\service\UserServiceImpl.class
+com\shady\pojo\Books.class
+com\shady\pojo\user_book.class
+com\shady\dao\UsersMapper.class

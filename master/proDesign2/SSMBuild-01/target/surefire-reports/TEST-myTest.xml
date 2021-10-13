@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="myTest" time="2.337" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2018.2.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="E:\JDK\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\java_poject\ssmbulid"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\java_poject\ssmbulid"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="E:\JDK\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\陆镇涛\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\IDEA\IntelliJ IDEA 2018.2.5\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\JDK\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Razer\ChromaBroadcast\bin;C:\Program Files\Razer\ChromaBroadcast\bin;c:\program files (x86)\common files\oracle\java\javapath;c:\program files (x86)\razer chroma sdk\bin;c:\program files\razer chroma sdk\bin;c:\program files (x86)\razer\chromabroadcast\bin;c:\program files\razer\chromabroadcast\bin;c:\program files (x86)\intel\intel(r) management engine components\icls\;c:\program files\intel\intel(r) management engine components\icls\;c:\windows\system32;c:\windows;c:\windows\system32\wbem;c:\windows\system32\windowspowershell\v1.0\;c:\windows\system32\openssh\;c:\program files\dotnet\;c:\program files\microsoft sql server\130\tools\binn\;c:\program files\microsoft sql server\client sdk\odbc\170\tools\binn\;d:\matlab\runtime\win64;d:\matlab\bin;c:\program files (x86)\windows kits\8.1\windows performance toolkit\;c:\users\陆镇涛\appdata\local\microsoft\windowsapps;e:;opencv\build\x64\vc14\bin;e:\anaconda\scripts;c:\users\陆镇涛\.dotnet\tools;e:;windows kits\10\windows performance toolkit\;c:\program files\intel\wifi\bin\;c:\program files\common files\intel\wirelesscommon\;e:\jdk\bin;e:\jdk\jre\bin;e:\cmake\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;E:\QTSystem\;E:\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\陆镇涛\AppData\Local\Microsoft\WindowsApps;E:\opencv\build\x64\vc14\bin;E:\Anaconda\Scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\MinGW\mingw64\bin;E:\opencv\mingw-build\win-install\x64\mingw\lib;E:\opencv\mingw-build;E:\tomcat9\apache-tomcat-9.0.37\lib;E:\tomcat9\apache-tomcat-9.0.37\bin;E:\Mysql\mysql-5.7.12-winx64\bin;C:\Users\陆镇涛\AppData\Local\Programs\Microsoft VS Code\bin;E:\PY3.9;E:\VS2\Python37_64\python.exe;E:\release\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Common Files\Siemens\;C:\Program Files (x86)\Common Files\Siemens\Interfaces;C:\Program Files (x86)\Common Files\Siemens\ACE\Interfaces;C:\Users\陆镇涛\AppData\Local\Microsoft\WindowsApps;E:\opencv\build\x64\vc14\bin;E:\Anaconda\Scripts;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\MinGW\mingw64\bin;E:\opencv\mingw-build\win-install\x64\mingw\lib;E:\opencv\mingw-build;E:\tomcat9\apache-tomcat-9.0.37\lib;E:\tomcat9\apache-tomcat-9.0.37\bin;E:\Mysql\mysql-5.7.12-winx64\bin;C:\Users\陆镇涛\AppData\Local\Programs\Microsoft VS Code\bin;E:\PY3.9;E:\VS2\Python37_64\python.exe;E:\release\bin;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="maven.repo.local" value="E:\Maven\repo"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\陆镇涛"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="陆镇涛"/>
+    <property name="java.class.path" value="E:\IDEA\IntelliJ IDEA 2018.2.5\plugins\maven\lib\maven3\boot\plexus-classworlds-2.5.2.jar;E:\IDEA\IntelliJ IDEA 2018.2.5\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="E:\JDK\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2018.2.5 -s E:\Maven\apache-maven-3.6.3\apache-maven\src\conf\settings.xml -Dmaven.repo.local=E:\Maven\repo install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="zh"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="E:\JDK\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="E:\JDK\jre\lib\resources.jar;E:\JDK\jre\lib\rt.jar;E:\JDK\jre\lib\sunrsasign.jar;E:\JDK\jre\lib\jsse.jar;E:\JDK\jre\lib\jce.jar;E:\JDK\jre\lib\charsets.jar;E:\JDK\jre\lib\jfr.jar;E:\JDK\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\IDEA\IntelliJ IDEA 2018.2.5\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="myTest" name="test1" time="2.337"/>
+</testsuite>

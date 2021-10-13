@@ -1,0 +1,8 @@
+1.CC250注意下面代码接收板设置为0发送板设置为1
+
+ #define NODE_TYPE             1         //0:接收节点，1：发送节点
+
+2.getSerial.py用于接收CC250接收板的串口信号并上传至数据库
+3.proDesign2文件为java web项目，用于读取数据库数据并在前端页面中显示
+
+注意：deteteData.py用于调试时清空数据库的device_temperature表

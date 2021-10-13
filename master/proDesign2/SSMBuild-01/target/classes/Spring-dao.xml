@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--1.关联数据库配置文件-->
+    <context:property-placeholder location="classpath:db.properties" />
+    <!--2.连接池-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${jdbc.driver}"/>
+        <property name="url" value="${jdbc.url}"/>
+        <property name="username" value="${jdbc.username}"/>
+        <property name="password" value="${jdbc.password}"/>
+    </bean>
+
+    <!--3.SqlSessionFactory-->
+    <bean id="SqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="configLocation" value="classpath:mybatis-config.xml"/>
+<!--        <property name="mapperLocations" value="classpath:com/shady/dao/BookMapper.xml"/>-->
+        <property name="mapperLocations" value="classpath:com/shady/dao/DeviceMapper.xml"/>
+    </bean>
+
+    <!--4.这里通过扫描的方法，通过反射得到了一个实体的BookMapper.java，用于后续操作-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="SqlSessionFactory"/>
+        <property name="basePackage" value="com.shady.dao"/>
+     </bean>
+
+</beans>

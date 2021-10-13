@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ssmbuild@localhost" uuid="54d78b91-9c5e-4113-8261-169ac8eba6ff">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/ssmbuild?serverTimezone=GMT</jdbc-url>
+      <driver-properties>
+        <property name="autoReconnect" value="true" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="@localhost [2]" uuid="f4fd9dde-f7d4-4263-81a5-993292387e61">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://localhost</jdbc-url>
+      <driver-properties>
+        <property name="applicationName" value="DataGrip" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="ali" uuid="87d39790-02e5-44b7-8cae-2a1a9426a1eb">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-uf614v1zjojkhd4tw7o.mysql.rds.aliyuncs.com:3306/ssmbuild</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="prodesign2" uuid="39d41ee0-44af-4607-8bde-008d25687668">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://rm-uf614v1zjojkhd4tw7o.mysql.rds.aliyuncs.com:3306/prodesign2</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

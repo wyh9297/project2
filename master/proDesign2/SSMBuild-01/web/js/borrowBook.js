@@ -1,0 +1,29 @@
+$(document).ready(function(){
+    $("#table_page3").bootstrapTable({
+        columns:[{
+            field:'readerId',
+            title:'读者号'
+        },{
+            field:'bookId',
+            title:'书号'
+        },{
+            field:'borrowDate',
+            title:'结束日期'
+        },{
+            field:'shouldReturn',
+            title:'应还日期'
+        },{
+            field:'returnDate',
+            title:'归还日期'
+        },{
+            field:'fine',
+            title:'逾期所处罚金'
+        },{
+            field:'flag',
+            title:'是否归还'
+        },{
+            field:'Option',
+            title:'操作'
+        },]
+    });
+});

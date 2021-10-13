@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.shady.dao.DeviceMapper">
+    <select id="queryDeviceById" resultType="com.shady.pojo.Devices">
+        select * from prodesign2.Devices
+        where device_id = #{device_id}
+    </select>
+    <select id="queryAllDevice" resultType="com.shady.pojo.Devices">
+        select * from prodesign2.Devices
+    </select>
+</mapper>

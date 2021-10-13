@@ -1,0 +1,31 @@
+.cont{
+    display: none;
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    width: 66%;
+    height: 66%;
+    background-color: #D8D8D8;
+    color: black;
+    z-index:1;
+    overflow: auto;
+    border:1px solid #a1a1a1;
+    border-radius:12px;
+}
+#s11{
+    margin-top: 15px;
+    margin-left:10px;
+    width:200px;
+}
+img{
+    margin-left:17px;
+    border-radius:32px;
+    height:70px;
+    width:70px;
+}
+#aa1{
+
+    width:300px;
+    margin-left:200px;
+    font-family:SimSun;
+}

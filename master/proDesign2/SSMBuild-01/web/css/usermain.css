@@ -1,0 +1,14 @@
+.cont{
+    display: none;
+    position: fixed;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border: 10px solid #ddd;
+    background-color: lightblue;
+    color: white;
+    z-index:1;
+    overflow: auto;
+}
